@@ -5,16 +5,16 @@
    <extension
          point="org.eclipse.ui.commands">
       <category
-            name="English Tools"
+            name="%category.name"
             id="EnglishTools.commands.category">
       </category>
       <command
-            name="Thesaurus selection"
+            name="%command.name"
             categoryId="EnglishTools.commands.category"
             id="EnglishTools.commands.thesaurusThis">
       </command>
       <command
-        name="Dictionary selection"
+        name="%command.name.0"
         categoryId="EnglishTools.commands.category"
         id="EnglishTools.commands.dictionaryThis">
       </command>
@@ -54,13 +54,13 @@
             <command
                   commandId="EnglishTools.commands.thesaurusThis"
                   icon="icons/t.jpg"
-                  tooltip="Thesaurus selection"
+                  tooltip="%command.tooltip"
                   id="EnglishTools.toolbars.thesaurusThis">
             </command>
             <command
                   commandId="EnglishTools.commands.dictionaryThis"
                   icon="icons/d.jpg"
-                  tooltip="Dictionary selection"
+                  tooltip="%command.tooltip.0"
                   id="EnglishTools.toolbars.dictionaryThis">
             </command>
          </toolbar>

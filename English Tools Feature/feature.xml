@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="EnglishTools"
-      label="English Tools"
-      version="1.0.0"
-      provider-name="KfirLevAri.com">
+      id="English_Tools"
+      label="English_Tools"
+      version="1.0.0">
 
    <description url="https://github.com/kfirlevari/EnglishToolsForEclipse">
       Improve your english using embedded thesaurus.com and dictionary.com.
-Select a text on text editor and press CTRL+6 in order to search
-the word in thesaurus, ALT+6 for dictionary.com.
-Source code is available at
+Select a word and press CTRL+6 for thesaurus.com, ALT+6 for dictionary.com.
+Source code is available at https://github.com/kfirlevari/EnglishToolsForEclipse
    </description>
 
    <copyright url="http://www.example.com/copyright">
@@ -37,11 +35,10 @@ DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE TERMS AND CONDITIONS FOR COPYING, DI
       <import plugin="org.eclipse.ui.workbench.texteditor"/>
       <import plugin="org.eclipse.text"/>
       <import plugin="org.eclipse.jface.text"/>
-      <import plugin="Jsoup" version="1.0.0" match="greaterOrEqual"/>
    </requires>
 
    <plugin
-         id="EnglishTools"
+         id="com.kfirla.EnglishTools"
          download-size="0"
          install-size="0"
          version="0.0.0"
