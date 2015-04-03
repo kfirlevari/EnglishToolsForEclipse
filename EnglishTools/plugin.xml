@@ -41,32 +41,12 @@
       <key
             commandId="EnglishTools.commands.dictionaryThis"
             contextId="org.eclipse.ui.contexts.window"
-            sequence="M1+5"
+            sequence="M1+M3+6"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
       </key>
    </extension>
    <extension
          point="org.eclipse.ui.menus">
-      <menuContribution
-            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
-         <menu
-               label="English Tools"
-               mnemonic="M"
-               id="EnglishTools.menus.mainMenu">
-            <command
-                  commandId="EnglishTools.commands.thesaurusThis"
-                  icon="icons/t.jpg"
-                  id="EnglishTools.menus.thesaurusThis"
-                  mnemonic="T">
-            </command>
-            <command
-                  commandId="EnglishTools.commands.dictionaryThis"
-                  icon="icons/d.jpg"
-                  id="EnglishTools.menus.dictionaryThis"
-                  mnemonic="D">
-            </command>
-         </menu>
-      </menuContribution>
       <menuContribution
             locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
          <toolbar

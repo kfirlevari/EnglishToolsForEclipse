@@ -2,18 +2,30 @@
 <feature
       id="EnglishToolsFP"
       label="EnglishToolsFP"
-      version="1.0.0">
+      version="1.0.0"
+      provider-name="KfirLevAri.com">
 
-   <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+   <description url="https://github.com/kfirlevari/EnglishToolsForEclipse">
+      Improve your english using embedded thesaurus.com and dictionary.com. Select a text on text editor and press CTRL+6 in order to search the word in thesaurus.
    </description>
 
    <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
+      Copyright (C) 2015 Kfir Lev-Ari kfirlevari.com
    </copyright>
 
-   <license url="http://www.example.com/license">
-      [Enter License Description here.]
+   <license url="http://www.wtfpl.net/">
+      DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+    Version 2, December 2004
+
+  Copyright (C) 2015 Kfir Lev-Ari kfirlevari.com
+
+  Everyone is permitted to copy and distribute verbatim or modified
+  copies of this license document, and changing it is allowed as long
+  as the name is changed.
+
+ DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.
    </license>
 
    <requires>
@@ -29,7 +41,7 @@
          id="EnglishTools"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.0.0"
          unpack="false"/>
 
 </feature>
