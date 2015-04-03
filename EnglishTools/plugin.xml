@@ -35,13 +35,13 @@
       <key
             commandId="EnglishTools.commands.thesaurusThis"
             contextId="org.eclipse.ui.contexts.window"
-            sequence="M1+6"
+            sequence="CTRL+6"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
       </key>
       <key
             commandId="EnglishTools.commands.dictionaryThis"
             contextId="org.eclipse.ui.contexts.window"
-            sequence="M1+M3+6"
+            sequence="CTRL+SHIFT+6"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
       </key>
    </extension>

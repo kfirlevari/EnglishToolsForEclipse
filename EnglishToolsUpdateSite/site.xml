@@ -3,7 +3,10 @@
    <description name="English Tools">
       Improve your english using embedded thesaurus.com and dictionary.com.
 Select a text on text editor and press CTRL+6 in order to search
-the word in thesaurus, CTRL+ALT+6 for dictionary.
+the word in thesaurus, CTRL+SHIFT+6 for dictionary.
    </description>
-   <feature url="features/EnglishToolsFP_1.0.0.jar" id="EnglishTools" version="1.0.0"/>
+   <feature url="features/EnglishTools_1.0.0.jar" id="EnglishTools" version="1.0.0">
+      <category name="com.kfirla.EnglishTools"/>
+   </feature>
+   <category-def name="com.kfirla.EnglishTools" label="Language Support"/>
 </site>

@@ -7,7 +7,7 @@
 
    <description url="https://github.com/kfirlevari/EnglishToolsForEclipse">
       Improve your english using embedded thesaurus.com and dictionary.com. 
-      Select a text on text editor and press CTRL+6 in order to search the word in thesaurus, CTRL+ALT+6 for dictionary.com.
+      Select a text on text editor and press CTRL+6 in order to search the word in thesaurus, CTRL+SHIFT+6 for dictionary.com.
    </description>
 
    <copyright url="http://www.example.com/copyright">
@@ -29,6 +29,10 @@
  0. You just DO WHAT THE FUCK YOU WANT TO.
    </license>
 
+   <url>
+      <discovery label="Source code" url="https://github.com/kfirlevari/EnglishToolsForEclipse"/>
+   </url>
+
    <requires>
       <import plugin="org.eclipse.ui"/>
       <import plugin="org.eclipse.core.runtime"/>
@@ -42,7 +46,7 @@
          id="EnglishTools"
          download-size="0"
          install-size="0"
-         version="1.0.0"
+         version="0.0.0"
          unpack="false"/>
 
 </feature>
