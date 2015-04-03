@@ -173,7 +173,7 @@ public class ThesaurusHandler extends AbstractHandler {
             button.setFocus();
             button = new Button(composite, SWT.PUSH);
             button.setLayoutData(new GridData(SWT.BEGINNING, SWT.CENTER, false,false));
-            button.setText("Got to Thesaurus.com in browser");
+            button.setText("Go to Thesaurus.com in browser");
             button.setBackground(new Color(parent.getDisplay(), 255, 128, 0));
             button.addSelectionListener(new SelectionAdapter() {
                     @Override
