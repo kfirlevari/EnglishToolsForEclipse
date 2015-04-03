@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: com.kfirla.EnglishTools;singleton:=true
-Bundle-Version: 1.0.0
+Bundle-Version: 1.1.1
 Bundle-Activator: englishtools.Activator
 Bundle-Vendor: %Bundle-Vendor
 Require-Bundle: org.eclipse.ui,
@@ -11,11 +11,13 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.jface.text
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
-Export-Package: englishtools;uses:="org.osgi.framework,org.eclipse.jface.resource,org.eclipse.ui.plugin",
- englishtools.handlers;
-  uses:="org.eclipse.swt.graphics,
-   org.eclipse.swt.widgets,
-   org.eclipse.jface.text,
-   org.eclipse.jface.dialogs,
-   org.eclipse.core.commands"
-Bundle-ClassPath: .,lib/jsoup-1.8.1.jar
+Export-Package: englishtools,
+ englishtools.handlers,
+ org.jsoup,
+ org.jsoup.examples,
+ org.jsoup.helper,
+ org.jsoup.nodes,
+ org.jsoup.parser,
+ org.jsoup.safety,
+ org.jsoup.select
+

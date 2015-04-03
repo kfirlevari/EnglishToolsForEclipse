@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="English_Tools"
+      label="English_Tools"
+      version="1.1.1"
+      provider-name="com.kfirlevari"
+      plugin="com.kfirla.EnglishTools">
+
+   <description url="https://github.com/kfirlevari/EnglishToolsForEclipse">
+      Improve your english using embedded thesaurus.com and dictionary.com.
+Select a word and press CTRL+6 for thesaurus.com, ALT+6 for dictionary.com.
+Source code is available at https://github.com/kfirlevari/EnglishToolsForEclipse
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright (C) 2015 Kfir Lev-Ari kfirlevari.com
+   </copyright>
+
+   <license url="http://www.wtfpl.net/">
+      DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+Version 2, December 2004
+
+Copyright (C) 2015 Kfir Lev-Ari kfirlevari.com
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+ 
+ 0. You just DO WHAT THE FUCK YOU WANT TO.
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.eclipse.text"/>
+      <import plugin="org.eclipse.jface.text"/>
+   </requires>
+
+   <plugin
+         id="com.kfirla.EnglishTools"
+         download-size="0"
+         install-size="0"
+         version="1.1.1"
+         unpack="false"/>
+
+</feature>
