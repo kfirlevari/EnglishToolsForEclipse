@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description name="English Tools" url="https://github.com/kfirlevari/EnglishToolsForEclipse/">
+   <description name="English Tools">
       Improve your english using embedded thesaurus.com and dictionary.com.
 Select a text on text editor and press CTRL+6 in order to search
 the word in thesaurus, CTRL+ALT+6 for dictionary.

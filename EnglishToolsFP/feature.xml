@@ -6,7 +6,8 @@
       provider-name="KfirLevAri.com">
 
    <description url="https://github.com/kfirlevari/EnglishToolsForEclipse">
-      Improve your english using embedded thesaurus.com and dictionary.com. Select a text on text editor and press CTRL+6 in order to search the word in thesaurus.
+      Improve your english using embedded thesaurus.com and dictionary.com. 
+      Select a text on text editor and press CTRL+6 in order to search the word in thesaurus, CTRL+ALT+6 for dictionary.com.
    </description>
 
    <copyright url="http://www.example.com/copyright">
