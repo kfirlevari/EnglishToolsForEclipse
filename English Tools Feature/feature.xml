@@ -2,7 +2,9 @@
 <feature
       id="English_Tools"
       label="English_Tools"
-      version="1.0.0">
+      version="1.0.0"
+      provider-name="com.kfirlevari"
+      plugin="com.kfirla.EnglishTools">
 
    <description url="https://github.com/kfirlevari/EnglishToolsForEclipse">
       Improve your english using embedded thesaurus.com and dictionary.com.
