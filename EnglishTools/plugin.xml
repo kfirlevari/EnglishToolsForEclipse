@@ -41,7 +41,7 @@
       <key
             commandId="EnglishTools.commands.dictionaryThis"
             contextId="org.eclipse.ui.contexts.window"
-            sequence="CTRL+SHIFT+6"
+            sequence="ALT+6"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
       </key>
    </extension>

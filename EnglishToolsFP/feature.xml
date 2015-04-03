@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="EnglishTools"
-      label="EnglishTools"
+      label="English Tools"
       version="1.0.0"
       provider-name="KfirLevAri.com">
 
    <description url="https://github.com/kfirlevari/EnglishToolsForEclipse">
       Improve your english using embedded thesaurus.com and dictionary.com. 
-      Select a text on text editor and press CTRL+6 in order to search the word in thesaurus, CTRL+SHIFT+6 for dictionary.com.
+      Select a text on text editor and press CTRL+6 in order to search the word in thesaurus, ALT+6 for dictionary.com.
    </description>
 
    <copyright url="http://www.example.com/copyright">
