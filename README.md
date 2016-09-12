@@ -15,4 +15,6 @@ Press on "Select All", then "Next..." ![tiny arrow](http://www.dentalxp.com/imag
 
 Shortcuts
 ------------------
-Select a word, then press Ctrl+6 for thesaurus, Alt+6 for dictionary.
+Select a word, then either:
+* press Ctrl+6 for thesaurus, Alt+6 for dictionary (works only if the combination isn't set for another command); or
+* click on the thesaurus / dictionary button.   
